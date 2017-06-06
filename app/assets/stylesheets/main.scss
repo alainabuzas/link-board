@@ -1,0 +1,33 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button a:visited {
+    color: #fff;
+}
+
+button {
+    background-color: #3b5998;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.current-user {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
